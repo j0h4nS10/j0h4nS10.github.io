@@ -1,16 +1,15 @@
 import React from "react";
+import Navbarmain from "../components/Navbarmain/Navbarmain";
+import Proyects from "../components/proyects/proyects";
+import Footer from "../components/Footer/Footer";
 
 
 const Homepage = () => {
 
-    return (<>
-        <div className="container" style={{ margin: "0 auto" }}>
-            <div className="row row-col-6">
-                <h1>texto</h1>
-            </div>
-            <div className="row row-col-6">
-                <h1>texto otro</h1></div>
-        </div></>)
+    return (<><Navbarmain></Navbarmain>
+        <Proyects></Proyects>
+        <Footer></Footer>
+    </>)
 }
 
 export default Homepage
