@@ -4,6 +4,7 @@ import { Card, Button } from "react-bootstrap";
 import profile_picture from '../../assets/profile_picture.jpg';
 import { Link } from "react-router-dom";
 import Technology from "../Technology/Technology";
+import Social from "../Social/Social";
 
 
 
@@ -39,6 +40,7 @@ const Proyects = () => {
                             i'm a seniur developer soy Hello, my name is Johan, i'm a seniur developer soy Hello, my name is Johan, i'm a seniur developer soy
                              Hello, my name is Johan, i'm a seniur developer soy Hello, my name is Johan, i'm a seniur developer soy </p> 
                     </div>
+                    <Social></Social><br></br>
                     <Technology></Technology>
                 </div>
             </div>{/*row-cols-1 row-cols-lg-2 border*/}

@@ -9,7 +9,6 @@ const Homepage = () => {
 
     return (<><Navbarmain></Navbarmain>
         <Proyects></Proyects>
-        <Technology></Technology>
         <Footer></Footer>
     </>)
 }
