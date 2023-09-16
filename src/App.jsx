@@ -5,11 +5,12 @@ import NavigationRouter from './components/NavigationRouter/NavigationRouter';
 function App() {
   
 
-  return (
-    <><NavigationRouter>
+  return (<>
+  <NavigationRouter>
     </NavigationRouter>
     </>
   )
 }
 
 export default App
+

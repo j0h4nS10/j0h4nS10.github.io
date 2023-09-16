@@ -3,6 +3,7 @@ import axios from "axios";
 import { Card, Button } from "react-bootstrap";
 import profile_picture from '../../assets/profile_picture.jpg';
 import { Link } from "react-router-dom";
+import Technology from "../Technology/Technology";
 
 
 
@@ -23,27 +24,36 @@ const Proyects = () => {
 
     useEffect(() => { getUserInfo() }, [])
 
-    return (<><div className="container" style={{ margin: "0 auto", width: "100%", background: "gray" }}>
-        <div className="row row-cols-1 row-cols-lg-2" style={{background: "blue", margin: "0 auto"}}>
-            <div className="col m-5 border" style={{ width: "30%", margin: "0 auto", background: "red" }}>
-                <div className="" style={{ }}>
-                    <img src={profile_picture}
+    return (<><div className="container mt-2" style={{ margin: "0 auto", width: "100%" }}>
+        <div className="row row-cols-1 row-cols-lg-2" style={{margin: "0 auto"}}>
+            <div className="col-sm-11 col-lg-4 border m5" style={{margin: "0 auto" }}>
+                <div className="mt-5" style={{ }}>
+                    <div className="mt-5">
+                        <img src={profile_picture}
                         style={{ width: "50%"}}></img>
-                    <div className="mt-2">
-                        <h1>social netwt2orks</h1> </div>
+                    </div>
+                    <div className="mt-5">
+                        <h1>Johan</h1>
+                        <h5>About Me</h5>
+                        <p>Hello, my name is Johan, i'm a seniur developer soy Hello, my name is Johan, i'm a seniur developer soy Hello, my name is Johan, 
+                            i'm a seniur developer soy Hello, my name is Johan, i'm a seniur developer soy Hello, my name is Johan, i'm a seniur developer soy
+                             Hello, my name is Johan, i'm a seniur developer soy Hello, my name is Johan, i'm a seniur developer soy </p> 
+                    </div>
+                    <Technology></Technology>
                 </div>
-            </div>
-            <div className="row-cols-1 row-cols-lg-2 border" style={{ }}>
-                <div className="col" style={{width:"95%" , margin: "0 auto", background: "yellow" }}>
+            </div>{/*row-cols-1 row-cols-lg-2 border*/}
+            <div className="col-sm-11 col-lg-8 border m5" style={{margin: "0 auto" }}>
+                <div className="col" style={{ }}>
                     {repo ? repo.map((element, index) => {
                         return (
-                            <div key={index} className="m-5">
-                                <Card style={{  }}>
+                            <div key={index} className="m-2">
+                                <Card style={{ }}>
                                     <Card.Body>
                                         <Card.Title style={{ fontSize: "30px" }}>{element.name}</Card.Title>
-                                        <Card.Img variant="top" src={profile_picture} style={{ width: "40%" }} ></Card.Img>
-                                        <Card.Text>{element.description}
-                                        </Card.Text>
+                                        <div className="" style={{ width: "10%", margin: "0 auto"}}> 
+                                            <Card.Img variant="top" src={profile_picture} style={{ width: "100%" }} ></Card.Img>
+                                        </div>
+                                        <Card.Text>{element.description}</Card.Text>
                                         <Card.Text><Link to={element.homepage}>{element.homepage} </Link></Card.Text>
                                         <Button variant="primary" onClick={() => { window.location.href = element.html_url }}>
                                             View Code</Button>
