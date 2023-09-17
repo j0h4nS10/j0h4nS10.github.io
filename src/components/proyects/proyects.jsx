@@ -34,7 +34,7 @@ const Proyects = () => {
                         style={{ width: "50%"}}></img>
                     </div>
                     <div className="mt-5">
-                        <h1>Johan</h1>
+                        <h1>Johan S</h1>
                         <h5>About Me</h5>
                         <p>Hello, my name is Johan, i'm a seniur developer soy Hello, my name is Johan, i'm a seniur developer soy Hello, my name is Johan, 
                             i'm a seniur developer soy Hello, my name is Johan, i'm a seniur developer soy Hello, my name is Johan, i'm a seniur developer soy
