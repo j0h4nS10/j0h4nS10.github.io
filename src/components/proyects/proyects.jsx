@@ -38,8 +38,10 @@ const Proyects = () => {
                         <h5>About Me</h5>
                         <p>Hi, I'm Johan and I'm a technology enthusiast with skills in javascript, html and css for developing projects and skills in project development for the MongoDB, Express, React, Node stack, commonly known as MERN. Likewise, I have developed the following projects using the aforementioned technologies.</p> 
                     </div>
-                    <Social></Social><br></br>
+                    <br></br>
                     <Technology></Technology>
+                    <br></br>
+                    <Social></Social>
                 </div>
             </div>{/*row-cols-1 row-cols-lg-2 border*/}
             <div className="col-sm-11 col-lg-8 border m5" style={{margin: "0 auto" }}>
