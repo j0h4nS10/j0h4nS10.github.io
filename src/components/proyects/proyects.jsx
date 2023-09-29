@@ -36,9 +36,7 @@ const Proyects = () => {
                     <div className="mt-5">
                         <h1>Johan S</h1>
                         <h5>About Me</h5>
-                        <p>Hello, my name is Johan, i'm a seniur developer soy Hello, my name is Johan, i'm a seniur developer soy Hello, my name is Johan, 
-                            i'm a seniur developer soy Hello, my name is Johan, i'm a seniur developer soy Hello, my name is Johan, i'm a seniur developer soy
-                             Hello, my name is Johan, i'm a seniur developer soy Hello, my name is Johan, i'm a seniur developer soy </p> 
+                        <p>Hi, I'm Johan and I'm a technology enthusiast with skills in javascript, html and css for developing projects and skills in project development for the MongoDB, Express, React, Node stack, commonly known as MERN. Likewise, I have developed the following projects using the aforementioned technologies.</p> 
                     </div>
                     <Social></Social><br></br>
                     <Technology></Technology>
